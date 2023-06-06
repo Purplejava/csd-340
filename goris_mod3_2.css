@@ -1,0 +1,51 @@
+body {
+  
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  }
+  
+h1 {
+  color: purple;
+  background-color: pink;
+  text-align: left;
+  border: 1px solid #D6A800;
+  padding-top: 10px;
+}
+
+h2 {
+  color: purple;	
+  background-color: pink;
+  text-align: left;
+  border: 1px solid #D6A800;
+  padding-top: 10px;
+}
+
+h3 {
+  color: purple;	
+  background-color: pink;
+  text-align: left;
+  border: 1px solid #D6A800;
+  padding-top: 10px;
+}
+h4 {
+  color: purple;
+  background-color: pink;
+  text-align: left;
+  border: 1px solid #D6A800;
+  padding-top: 10px;
+}
+
+a:link {
+	color: blue
+}
+
+  
+a:hover {
+  color: green;
+}
+  
+a:visited{
+	color: red;
+	
+}
