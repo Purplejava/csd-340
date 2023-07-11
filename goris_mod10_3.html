@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> CSD 340 Development with HTML and CSS </title>  	
+  <link href="goris_mod10_3.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div id=”container”></div>
+<h1>Assignment 10.3: JavaScript - Part 2</h1>
+<div>
+    <label for="display-toggle">Toggle Image Display:</label>
+    <input type="checkbox" id="display-toggle" onchange="toggleImageDisplay()">
+  </div>
+  
+  <div class="image-container">
+    <img src="cave_01.jpg" onclick="handleImageClick(1)" alt="Image 1">
+    <img src="cave_02.jpg" onclick="handleImageClick(2)" alt="Image 2">
+    <img src="moon_01.jpg" onclick="handleImageClick(3)" alt="Image 3">
+    <img src="moon_02.jpg" onclick="handleImageClick(4)" alt="Image 4">
+  </div>
+  
+  <script src="script.js"></script>
+
+<address>
+<p><a href="https://www.bellevue.edu">Bellevue University</a></p>
+<p>1000 Galvin Road South</p>
+<p>Bellevue, Nebraska 68005</p>
+</address>
+
+</body>
+</html>
