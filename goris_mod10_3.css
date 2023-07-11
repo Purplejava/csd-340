@@ -1,0 +1,56 @@
+body {
+  font-size: 16px;
+  background-color: purple;
+}
+h1 {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+  
+p {
+  class="intro"{
+  text-indent: 2;
+}
+span class="sentence"{
+   font-style: italic;
+   font-weight: 400;
+   font-family: verdana;
+   font-size: 20px;
+   line-height: 1.4;
+} 
+.replace-button {
+   padding: 8px 16px;
+   background-color: #f1f1f1;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+      
+.replace-button:hover {
+   background-color: #ddd;
+}
+      
+.replace-button:focus {
+   outline: none;
+}
+
+addres {
+   text-align: center;
+}
+
+a {
+  color: #4F3674;
+  text-decoration: none;
+  font-size: 1.25;
+  font-weight: bold;
+  
+a:hover {
+  background-color: green;
+}
+  
+a:visited{
+	color: white;
+	text-decoration-color: orange;
+}
